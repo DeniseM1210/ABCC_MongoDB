@@ -1,0 +1,31 @@
+<div class="card card-body p-4 rounded-0 bg-dark text-white">
+  <h3>Agrega un alumno</h3>
+  <form action="/alumnos/add" method="post">
+
+    <div class="mb-3">
+      <label for="numControl">Numero de Control:</label>
+      <input
+        id="numControl"
+        class="form-control rounded-0 bg-dark text-white"
+        type="text"
+        name="numControl"
+        placeholder="Numero de control"
+        autofocus
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="nombre">Nombre:</label>
+      <input
+        id="nombre"
+        class="form-control rounded-0 bg-dark text-white"
+        type="text"
+        name="nombre"
+        placeholder="Nombre"
+        autofocus
+      />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Agregar</button>
+  </form>
+</div>
